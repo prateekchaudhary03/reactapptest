@@ -6,7 +6,7 @@ timestamps()
 }
 stages{
 stage('build'){
-step{
+steps{
 sh "ls -lrtha"
 }
 }
