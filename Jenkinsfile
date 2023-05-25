@@ -2,7 +2,7 @@ pipeline{
   //test
 agent any
 options{
-timestamp()
+timestamps()
 }
 stages{
 stage('build'){
